@@ -58,7 +58,7 @@ int _mycd(info_t *info)
 		{
 			_puts(s);
 			_putchar('\n');
-			return (`11);
+			return (1);
 		}
 		_puts(_getenv(info, "OLDPWD=")), _putchar('\n');
 		chdir_ret = /* TODO: what should this be? */
